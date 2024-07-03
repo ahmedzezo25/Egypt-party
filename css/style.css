@@ -1,0 +1,232 @@
+
+:root 
+{
+scroll-behavior: auto;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: #fff;
+}
+#home {
+    background-image: url(../image/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 660px;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.link {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: black;
+    height: 100%;
+    padding: 60px 20px;
+    width: 250px;
+    /* transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s; */
+    z-index: 300;
+}
+.link a {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.link a i {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    color: #fff;
+    font-size: 20px; 
+}
+.link a:hover {
+    color: rgb(171, 9, 9);
+}
+.contact-home {
+
+    margin-left: 0;
+    padding: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  
+}
+.contact-home h2 {
+    font-size: 60px;
+    margin-top: 200px;
+}
+.contact-home i {
+    margin-right: 10px;
+
+}
+.contact-home span {
+    font-size: 30px;
+    cursor: pointer;
+}
+.home {
+ position: absolute;
+ top: 50%;
+   
+}
+#slideDown {
+    padding-block: 100px;
+}
+.title {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+.text {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+/* count */
+#count {
+    background-image: url(../image/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 330px;
+    position: relative;
+}
+#count .overlay-count {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    width: 100%;
+    height: 100%;
+   
+}
+.number {
+    font-weight: 500;
+    padding: 50px;
+    font-size: 30px;
+    border: 1px solid#fff;
+   
+
+}
+.number {
+    color: #fff;
+}
+#count .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+@media(max-width: 768px) {
+    #count .container {
+        
+        top: 110% ;
+      
+    }
+}
+
+/* contact  */
+#contact  {
+    padding:  130px 0  !important;
+}
+.container h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container .header p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+.container .textt h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.container .textt p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+.icon {
+    margin-top: 50px;
+    text-align: center;
+}
+.icon p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+.icon i {
+    margin-right: 20px;
+    color: #777;
+}
+.social {
+    margin-top: 60px;
+    color: #777;
+}
+.social i {
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.social i:hover {
+    border: 1px solid #D62E33;
+    color: #fff;
+    background-color: #D62E33;
+   
+}
+form button {
+    background-color: #D62E33;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: block;
+   
+}
+form #number {
+    color: #D62E33;
+}
